@@ -11,26 +11,26 @@ Depends on 3d_armor, homedecor, farming_redo, stairs_redo, mobs_redo, mobs_anima
 dye, wool, bucket, vessels, xpanes, farming, and default.
 
 This mod contains the following:  
- 	* Stocking*  
-	* Christmas Lights (and craftitems)  
-		* White  
-		* Multicolor  
-		* Icicle (white)  
-		* Bulb (multicolor)  
-		* Pane version of above  
-	* Garland  
-	* Garland with lights  
-	* Gingerbread Cookies (and craftitems)  
-	* Plate of cookies (decorational)  
-	* Glass of milk (decorational)  
-	* Candycane (edible)  
-	* Santa Claus mob (non-moving)  
-	* Reindeer mob (non-moving, has animations) 
-	* Santa hat (wearable)   
-	* Candycane (placeable - noncraftable)  
-	* Frosting nodes (noncraftable)  
-	* Candycane nodes (noncraftable)  
-	* Mistletoe  
+* Stocking*  
+* Christmas Lights (and craftitems)  
+	* White  
+	* Multicolor  
+	* Icicle (white)  
+	* Bulb (multicolor)  
+	* Pane version of above  
+* Garland  
+* Garland with lights  
+* Gingerbread Cookies (and craftitems)  
+* Plate of cookies (decorational)  
+* Glass of milk (decorational)  
+* Candycane (edible)  
+* Santa Claus mob (non-moving)  
+* Reindeer mob (non-moving, has animations) 
+* Santa hat (wearable)   
+* Candycane (placeable - noncraftable)  
+* Frosting nodes (noncraftable)  
+* Candycane nodes (noncraftable)  
+* Mistletoe  
 
 *Stockings are pretty cool. They will automatically fill once Christmas arrives,  
 or at least that is the idea. Extensive testing has supposedly confirmed this,  
