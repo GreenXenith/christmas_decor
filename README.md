@@ -11,7 +11,7 @@ Depends on 3d_armor, homedecor, farming_redo, stairs_redo, mobs_redo, mobs_anima
 dye, wool, bucket, vessels, xpanes, farming, and default.
 
 This mod contains the following:  
-* 	* Stocking*  
+ 	* Stocking*  
 	* Christmas Lights (and craftitems)  
 		* White  
 		* Multicolor  
