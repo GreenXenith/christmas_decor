@@ -88,10 +88,10 @@ minetest.register_node("christmas_decor:milk_glass", {
 	},
 	groups = {vessel = 1, dig_immediate = 3, attached_node = 1},
 	sounds = default_sounds("node_sound_glass_defaults"),
-	on_use = minetest.item_eat(4, minetest.get_modpath("vessels") and "vessels:drinking_glass"),
+	on_use = minetest.item_eat(4, depends.vessels and "vessels:drinking_glass"),
 })
 
-if minetest.get_modpath("default") then
+if depends.default then
 	minetest.register_craft({
 		output = "christmas_decor:plate_with_cookies",
 		type = "shapeless",
@@ -102,7 +102,7 @@ if minetest.get_modpath("default") then
 	})
 end
 
-if minetest.get_modpath("vessels") and depends.mobs_animal and depends.bucket then
+if depends.vessels and depends.mobs_animal and depends.bucket then
 	minetest.register_craft({
 		output = "christmas_decor:milk_glass",
 		type = "shapeless",
@@ -111,8 +111,8 @@ if minetest.get_modpath("vessels") and depends.mobs_animal and depends.bucket th
 	})
 end
 
-if minetest.get_modpath("default") then
-	if minetest.get_modpath("dye") then
+if depends.default then
+	if depends.dye then
 		minetest.register_craft({
 			output = "christmas_decor:ginger",
 			recipe = {
@@ -132,7 +132,7 @@ if minetest.get_modpath("default") then
 	})
 end
 
-if minetest.get_modpath("bucket") and minetest.global_exists("farming") and farming.mod and farming.mod == "redo" then
+if depends.bucket and depends.farming and depends.farming_redo then
 	minetest.register_craft({
 		output = "christmas_decor:gingerbread_dough",
 		type = "shapeless",
