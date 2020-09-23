@@ -280,6 +280,63 @@ if depends.stairs then
 	)
 end
 
+minetest.register_node("christmas_decor:frosting_trim", {
+	description = "Frosting Trim",
+	tiles = {"christmas_decor_frosting_trim.png"},
+	inventory_image = "christmas_decor_frosting_trim.png",
+	wield_image = "christmas_decor_frosting_trim.png",
+	sunlight_propagates = true,
+	walkable = false,
+	climbable = false,
+	is_ground_content = false,
+	selection_box = {
+		type = "wallmounted",
+	},
+	legacy_wallmounted = true,
+	use_texture_alpha = true,
+	drawtype = "signlike",
+	paramtype = "light",
+	paramtype2 = "wallmounted",
+	groups = {snappy = 3},
+	sounds = default_sounds("node_sound_leaves_defaults"),
+})
+
+minetest.register_node("christmas_decor:frosting_line", {
+	description = "Frosting Line",
+	tiles = {"christmas_decor_frosting_line.png"},
+	inventory_image = "christmas_decor_frosting_line.png",
+	wield_image = "christmas_decor_frosting_line.png",
+	sunlight_propagates = true,
+	walkable = false,
+	climbable = false,
+	is_ground_content = false,
+	selection_box = {
+		type = "wallmounted",
+	},
+	legacy_wallmounted = true,
+	use_texture_alpha = true,
+	drawtype = "signlike",
+	paramtype = "light",
+	paramtype2 = "wallmounted",
+	groups = {snappy = 3},
+	sounds = default_sounds("node_sound_leaves_defaults"),
+})
+
+minetest.register_craft({
+	output = "christmas_decor:frosting_trim 6",
+	recipe = {
+		{"christmas_decor:frosting_block", "christmas_decor:frosting_block", "christmas_decor:frosting_block"},
+		{"", "christmas_decor:frosting_block", ""},
+	}
+})
+
+minetest.register_craft({
+	output = "christmas_decor:frosting_line 6",
+	recipe = {
+		{"christmas_decor:frosting_block", "christmas_decor:frosting_block", "christmas_decor:frosting_block"},
+	}
+})
+
 for color, hex in pairs({
 	red = "#ff0000",
 	orange = "#ff9000",
