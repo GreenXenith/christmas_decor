@@ -1,7 +1,7 @@
 # Christmas Decor
 _'Tis the season!_  
 
-Optional depends on 3d_armor, basic_materials, bucket, default, dye, farming_redo, homedecor_exterior, mobs, mobs_animal, stairs, vessels, wool, and xpanes.  
+Optional depends on 3d_armor, basic_materials, bucket, default, dye, farming_redo, homedecor_exterior, mobs_redo, mobs_animal, stairs, vessels, wool, and xpanes.  
 
 ## Contents  
 * Stocking  
