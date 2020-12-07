@@ -22,6 +22,7 @@ Optional depends on 3d_armor, basic_materials, bucket, default, dye, farming_red
 * Colored gumdrops (edible and decorational)  
 * Mistletoe  
 * Icicles (wallmounted/hanging)  
+* Snowman  
 * Nutcracker  
 * Santa Claus and Mrs. Claus mobs (non-moving)  
 * Reindeer and Rudolf mobs (non-moving, has animations)  
