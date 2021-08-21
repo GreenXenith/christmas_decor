@@ -132,7 +132,7 @@ if depends.default then
 	})
 end
 
-if depends.bucket and depends.farming and depends.farming_redo then
+if depends.bucket and depends.farming_redo then
 	minetest.register_craft({
 		output = "christmas_decor:gingerbread_dough",
 		type = "shapeless",
