@@ -46,7 +46,7 @@ minetest.register_node("christmas_decor:mistletoe", {
 	walkable = false,
 	sunlight_propagates = true,
 	paramtype = "light",
-	use_texture_alpha = true,
+	use_texture_alpha = "blend",
 	groups = {snappy = 3},
 	sounds = default_sounds("node_sound_leaves_defaults"),
 })
@@ -82,7 +82,7 @@ minetest.register_node("christmas_decor:icicles_wall", {
 		type = "wallmounted",
 	},
 	legacy_wallmounted = true,
-	use_texture_alpha = true,
+	use_texture_alpha = "blend",
 	drawtype = "signlike",
 	paramtype = "light",
 	light_source = 3,
@@ -105,7 +105,7 @@ minetest.register_node("christmas_decor:icicles_hanging", {
 			},
 		}
 	},
-	use_texture_alpha = true,
+	use_texture_alpha = "blend",
 	inventory_image = "christmas_decor_icicles_hanging_inv.png",
 	wield_image = "christmas_decor_icicles_hanging_inv.png",
 	drawtype = "plantlike",
@@ -221,7 +221,7 @@ minetest.register_node("christmas_decor:nutcracker", {
 	drawtype = "mesh",
 	mesh = "christmas_decor_nutcracker.obj",
 	tiles = {"christmas_decor_nutcracker.png"},
-	use_texture_alpha = true,
+	use_texture_alpha = "blend",
 	inventory_image = "christmas_decor_nutcracker_inv.png",
 	walkable = true,
 	selection_box = {
@@ -255,7 +255,7 @@ minetest.register_node("christmas_decor:snowman", {
 	drawtype = "mesh",
 	mesh = "christmas_decor_snowman.obj",
 	tiles = {"christmas_decor_snowman.png"},
-	use_texture_alpha = true,
+	use_texture_alpha = "blend",
 	inventory_image = "christmas_decor_snowman_inv.png",
 	walkable = true,
 	selection_box = {

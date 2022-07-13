@@ -72,7 +72,7 @@ minetest.register_node("christmas_decor:stocking", {
 	drawtype = "mesh",
 	mesh = "christmas_decor_stocking.obj",
 	tiles = {"christmas_decor_stocking.png"},
-	use_texture_alpha = true,
+	use_texture_alpha = "blend",
 	inventory_image = "christmas_decor_stocking_inv.png",
 	wield_image = "christmas_decor_stocking_inv.png",
 	walkable = false,
