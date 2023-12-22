@@ -157,6 +157,7 @@ if depends.homedecor_exterior then
 			}
 		},
 		paramtype = "light",
+		use_texture_alpha = "clip",
 		light_source = 8,
 		is_ground_content = false,
 		groups = {snappy = 3},
@@ -182,6 +183,7 @@ if depends.homedecor_exterior then
 			"homedecor_shrubbery_roots.png"
 		},
 		paramtype = "light",
+		use_texture_alpha = "clip",
 		light_source = 8,
 		is_ground_content = false,
 		groups = {snappy = 3},
